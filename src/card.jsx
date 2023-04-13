@@ -18,11 +18,11 @@ function Card({card}) {
                 return 'card yellow'
                 break;
             default:
-                return 'card black'
+                return 'card'
                 break;
         }
     }
-    console.log(typeof card.value)
+    // console.log(typeof card.value)
 
     return (
         <div className={findColor()}>

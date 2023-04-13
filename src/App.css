@@ -1,0 +1,42 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    /* display: flex;
+    justify-self: center; */
+    width: 50vh;
+    height: 50px;
+    position: sticky;
+    left: 80px;
+    background-color: rgb(255, 136, 136);
+    border: none;
+    border-radius: 15px;
+    font-size: 2rem;
+    color: white;
+}
+
+button:hover,
+button:active {
+    background-color: rgb(255, 97, 97);
+    transition: all linear 0.25s;
+    cursor: pointer;
+}
+
+.App {
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: end;
+    justify-content: center; */
+    /* height: 90vh; */
+    /* width: 20vh; */
+}
+
+.player {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
